@@ -23,7 +23,7 @@ pipeline {
 
     post {
         always {
-            target/surefire-reports/*.xml
+            target/surefire-reports/**.xml
         }
     }
 }
