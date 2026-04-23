@@ -20,4 +20,10 @@ pipeline {
             }
         }
     }
+
+    post {
+        always {
+            target/surefire-reports/*.xml
+        }
+    }
 }
