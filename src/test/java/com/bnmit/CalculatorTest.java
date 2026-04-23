@@ -19,7 +19,7 @@ public class CalculatorTest {
 
     @Test
     public void testMul() {
-        assertEquals(4, calc.mul(2, 2));
+        assertEquals(4, calc.mul(1, 2));
     }
 
     @Test
